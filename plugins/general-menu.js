@@ -102,16 +102,12 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     mediaUrl: "https://Instagram.com/bot_whangsaf",
     mediaType: "VIDEO",
     description: "https://Instagram.com/bot_whangsaf", 
-    title: 'Simple Bot Esm',
+    title: 'Simple Bot Xinzuo',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
 }
 } })
-conn.sendFile(m.chat, vn, 'dj1.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true 
-})
     // conn.sendButton(m.chat, 
     //`*Hi, ${name} 👋*\n\n`, 
   //  text.trim(), './media/marin.jpg', [
