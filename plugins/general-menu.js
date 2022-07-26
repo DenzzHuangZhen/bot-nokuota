@@ -102,7 +102,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     mediaUrl: "https://www.facebook.com/instagram/",
     mediaType: "VIDEO",
     description: "https://Instagram.com/xinzuo_bot", 
-    title: 'Xinzuo Runtime : ${uptime} ',
+    title: 'Xinzuo Runtime : '${uptime}' ',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
